@@ -109,6 +109,49 @@
           }
         }
       }
+    },
+    "my-shared-lib": {
+      "projectType": "library",
+      "root": "projects/my-shared-lib",
+      "sourceRoot": "projects/my-shared-lib/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/my-shared-lib/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/my-shared-lib/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/my-shared-lib/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/my-shared-lib/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/my-shared-lib/**/*.ts",
+              "projects/my-shared-lib/**/*.html"
+            ],
+            "eslintConfig": "projects/my-shared-lib/eslint.config.js"
+          }
+        }
+      }
     }
   },
   "cli": {
