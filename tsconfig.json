@@ -10,9 +10,15 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
+      "@app/*": [
+        "./src/app/*"
+      ],
       "my-shared-lib": [
-        "./dist/my-shared-lib"
-      ]
+        "./projects/my-shared-lib/src/public-api.ts"
+      ],
+      // "my-shared-lib": [
+      //   "./dist/my-shared-lib"
+      // ]
     },
     "skipLibCheck": true,
     "isolatedModules": true,
