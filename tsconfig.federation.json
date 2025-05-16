@@ -9,6 +9,6 @@
   ],
   "include": [
     "src/**/*.d.ts",
-    "projects/my-shared-lib/src/public-api.ts"
+    "src/app/exports/**/*.ts"
   ]
 }
