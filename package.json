@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "concurrently \"ng build my-shared-lib --watch\" \"ng serve\"",
-    "build": "ng build",
+    "build": "ng build my-shared-lib && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint"
