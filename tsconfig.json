@@ -13,12 +13,14 @@
       "@app/*": [
         "./src/app/*"
       ],
-      // "my-shared-lib": [
-      //  "./projects/my-shared-lib/src/public-api.ts"
-      // ],
+      // development
       "my-shared-lib": [
-        "./dist/my-shared-lib"
+        "./projects/my-shared-lib/src/public-api.ts"
       ]
+      // production
+      // "my-shared-lib": [
+      //   "./dist/my-shared-lib"
+      // ]
     },
     "skipLibCheck": true,
     "isolatedModules": true,
