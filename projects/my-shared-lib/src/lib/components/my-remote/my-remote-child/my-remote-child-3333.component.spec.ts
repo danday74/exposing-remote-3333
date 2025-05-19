@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing'
-import { MyRemoteChildComponent } from './my-remote-child.component'
+import { MyRemoteChild3333Component } from './my-remote-child-3333.component'
 
-describe('MyRemoteChildComponent', () => {
-  let component: MyRemoteChildComponent
-  let fixture: ComponentFixture<MyRemoteChildComponent>
+describe('MyRemoteChild3333Component', () => {
+  let component: MyRemoteChild3333Component
+  let fixture: ComponentFixture<MyRemoteChild3333Component>
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MyRemoteChildComponent],
+      imports: [MyRemoteChild3333Component],
     })
       .compileComponents()
 
-    fixture = TestBed.createComponent(MyRemoteChildComponent)
+    fixture = TestBed.createComponent(MyRemoteChild3333Component)
     component = fixture.componentInstance
     fixture.detectChanges()
   })
