@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core'
-import { ModMySharedLibService } from '../../other/my-shared-lib.other'
+import { ModMyRemoteService } from '../../other/my-shared-lib.other'
 
 @Injectable({ providedIn: 'root' })
-export class MyRemoteService implements ModMySharedLibService {
+export class MyRemoteService implements ModMyRemoteService {
   // noinspection JSUnusedGlobalSymbols
   hello() {
-    console.log('hello MySharedLibService')
+    console.log('hello MyRemoteService')
   }
 }
