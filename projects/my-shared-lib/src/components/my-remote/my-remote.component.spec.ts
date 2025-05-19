@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing'
-import { MySharedLibComponent } from './my-shared-lib.component'
+import { MyRemoteComponent } from './my-remote.component'
 
-describe('MySharedLibComponent', () => {
-  let component: MySharedLibComponent
-  let fixture: ComponentFixture<MySharedLibComponent>
+describe('MyRemoteComponent', () => {
+  let component: MyRemoteComponent
+  let fixture: ComponentFixture<MyRemoteComponent>
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MySharedLibComponent],
+      imports: [MyRemoteComponent],
     })
       .compileComponents()
 
-    fixture = TestBed.createComponent(MySharedLibComponent)
+    fixture = TestBed.createComponent(MyRemoteComponent)
     component = fixture.componentInstance
     fixture.detectChanges()
   })
