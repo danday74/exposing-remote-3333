@@ -120,7 +120,7 @@
         "serve-original": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "port": 1111
+            "port": 2222
           },
           "configurations": {
             "production": {
