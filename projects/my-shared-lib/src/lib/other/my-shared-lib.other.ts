@@ -1,9 +1,9 @@
 // noinspection JSUnusedGlobalSymbols
-export const remoteObj1 = { a: 1 }
+export const remoteObj3333A = { a: 1 }
 
 // noinspection JSUnusedGlobalSymbols
-export const remoteObj2 = { b: 2 }
+export const remoteObj3333B = { b: 2 }
 
-export interface ModMyRemoteService {
+export interface ModMyRemote3333Service {
   hello: () => void
 }
