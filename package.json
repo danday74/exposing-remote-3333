@@ -1,9 +1,12 @@
 {
   "name": "exposing",
   "version": "0.0.0",
+  "comments": [
+    "npm start was ... concurrently \"ng build my-shared-lib --watch\" \"sleep 1 && ng serve\" ... but barrel file seems to avoid need for this"
+  ],
   "scripts": {
     "ng": "ng",
-    "start": "concurrently \"ng build my-shared-lib --watch\" \"sleep 1 && ng serve\"",
+    "start": "ng serve",
     "build": "ng build my-shared-lib && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
