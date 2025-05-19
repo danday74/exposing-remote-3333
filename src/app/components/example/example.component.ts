@@ -1,9 +1,9 @@
 import { Component } from '@angular/core'
-import { MyRemoteComponent } from 'my-shared-lib'
+import { MyRemote3333Component } from 'my-shared-lib'
 
 @Component({
   selector: 'app-example',
-  imports: [MyRemoteComponent],
+  imports: [MyRemote3333Component],
   templateUrl: './example.component.html',
   styleUrl: './example.component.scss',
 })
