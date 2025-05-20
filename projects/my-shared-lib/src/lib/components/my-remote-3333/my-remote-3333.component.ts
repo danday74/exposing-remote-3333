@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { MyRemoteChild3333Component } from './my-remote-child/my-remote-child-3333.component'
+import { MyRemoteChild3333Component } from './my-remote-child-3333/my-remote-child-3333.component'
 
 @Component({
   selector: 'lib-my-remote-3333',
