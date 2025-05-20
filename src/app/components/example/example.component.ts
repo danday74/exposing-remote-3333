@@ -1,5 +1,5 @@
 import { Component } from '@angular/core'
-import { MyRemote3333Component } from 'my-shared-lib'
+import { MyRemote3333Component } from 'my-shared-lib-3333'
 
 @Component({
   selector: 'app-example',
